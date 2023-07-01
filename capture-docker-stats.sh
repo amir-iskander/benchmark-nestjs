@@ -22,7 +22,7 @@ while true; do
     
   # Append to CSV
   echo "$STATS" >> $STATS_FILE
-    
+
   sleep $INTERVAL
   
 done
